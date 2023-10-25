@@ -1,15 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pag Principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
+<style>
+    .linked-off {
+        text-decoration: none;
+    }
+</style>
 <body>
-    <section>
-        <div><h1>Sistemas de Información</h1></div>
-        <div><h2>Grupo 1758</h2></div>
-    </section>
+    <!-- Header -->
+    <nav id="header" class="navbar navbar-expand-lg bg-white fixed-top"
+        style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Sistemas de Información</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="joshuaReneCruzRamirez.html">Joshua</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./AxelQuijanoCabello.html">Axel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#place-time">Jazmin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#conviertete-en-orador">Angel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.unam.mx/">Universidad </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header -->
+
+    <!-- Main -->
+    <main id="main">
+        <section id="speakers" class="mt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center text-uppercase" style="margin-top: 50px;">
+                        <small>Bienvenidos</small>
+                        <h2>Borreguitos</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <a href="joshuaReneCruzRamirez.html" class="linked-off">
+                            <div class="card">
+                                <img src="Media/JRCR.jpg" class="card-img-top" alt="Gato Barroco">
+                                <div class="card-body">
+                                    <div class="badges offset-8 offset-md-7 offset-lg-6 offset-xl-7 offset-xxl-8">
+                                        <span class="badge text-bg-warning">JavaScript</span>
+                                        <span class="badge text-bg-info">React</span>
+                                    </div>
+                                    <h5 class="card-title">Cruz Ramírez Joshua René</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                                        velit mollitia debitis doloribus! Sint nam voluptates placeat recusandae voluptas
+                                        pariatur.</p>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <a href="AxelQuijanoCabello.html" class="linked-off">
+                            <div class="card ">
+                                <img src="Media/AQC3.jpg" class="card-img-top" alt="Uganda Shadow">
+                                <div class="card-body">
+                                    <div class="badges offset-8 offset-md-7 offset-lg-6 offset-xl-7 offset-xxl-8">
+                                        <span class="badge text-bg-primary">Python</span>
+                                        <span class="badge text-bg-success">FastAPI</span>
+                                    </div>
+                                    <h5 class="card-title">Quiano Cabello Axel</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Voluptatum veritatis reprehenderit illum ex deleniti qui quis voluptas non? Quod,
+                                        vel!</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="./Media/JRCR4.jpg"
+                                class="card-img-top" alt="Foto de cvander">
+                            <div class="card-body">
+                                <div class="badges offset-8 offset-md-7 offset-lg-6 offset-xl-7 offset-xxl-8">
+                                    <span class="badge text-bg-warning">JavaScript</span>
+                                    <span class="badge text-bg-info">ExS</span>
+                                </div>
+                                <h5 class="card-title">Jazmin Sarai Ibieta Olvera</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, sit.
+                                    Et tenetur labore quod provident, veniam ut unde debitis quos!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <img src="./Media/JRC3.jpg"
+                                class="card-img-top" alt="Foto de Freddy">
+                            <div class="card-body">
+                                <div class="badges offset-8 offset-md-7 offset-lg-6 offset-xl-7 offset-xxl-8">
+                                    <span class="badge text-bg-warning">Java</span>
+                                    <span class="badge text-bg-info">Spring boot</span>
+                                </div>
+                                <h5 class="card-title">Hernandez Soledad Angel Agustín</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                                    ipsum dolorum cum consequuntur delectus obcaecati blanditiis neque inventore impedit
+                                    veritatis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- /Main -->
+
+
     <section>
         <h3>Cruz Ramírez Joshua René</h3>
         <img src="Media/JRCR.jpg" alt="Gato Barroco">
@@ -20,5 +140,12 @@
         <img style="height: 6.5cm" src="Media/AQC3.jpg" alt="Uganda Shadow">
         <a href="AxelQuijanoCabello.html">Mi pagina</a>
     </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
 </body>
+
 </html>
